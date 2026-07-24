@@ -1,16 +1,13 @@
 "use client"
 import Link from "next/link";
 import { motion, useScroll, useTransform, useSpring, Variants, MotionValue } from "framer-motion";
+import SocialLinks from "./SocialLinks";
 
 const ScatteringLetter = ({
   letter,
-  index,
-  smoothScroll,
   variants
 }: {
   letter: string;
-  index: number;
-  smoothScroll: MotionValue<number>;
   variants: Variants;
 }) => {
 
@@ -49,8 +46,6 @@ const HeaderWord = ({
         <ScatteringLetter
           key={letterIndex + 1}
           letter={letter}
-          index={letterIndex}
-          smoothScroll={smoothScroll}
           variants={childVariants}
         />
       ))}
@@ -108,6 +103,7 @@ export default function Header() {
   const headerlinks = [
     { name: "Home", link: "#home" },
     { name: "About", link: "#about" },
+    { name: "Experience", link: "#experience" },
     { name: "Projects", link: "#projects" },
     { name: "Contact", link: "#contact" },
   ];
@@ -117,6 +113,9 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-transparent">
+      <div className="fixed right-4 top-4 z-[60] hidden rounded-full border border-white/10 bg-black/40 p-1 shadow-2xl shadow-black/30 backdrop-blur-xl md:block">
+        <SocialLinks compact />
+      </div>
       <motion.div
         style={{ pointerEvents: pointerEvents, paddingTop: headerPadding, paddingBottom: headerPadding }}
         className="flex justify-center overflow-visible"
@@ -139,6 +138,12 @@ export default function Header() {
         </motion.h1>
       </motion.div>
 
+      <div className="mb-3 flex justify-center md:hidden">
+        <div className="rounded-full border border-white/10 bg-black/40 p-1 shadow-xl backdrop-blur-xl">
+          <SocialLinks compact />
+        </div>
+      </div>
+
       <nav className="pb-8 flex justify-center sticky top-5">
         <motion.ul
           style={{ backgroundColor: navBg, color: navColor, borderRadius: navRadius, padding: navInsidePadding }}
@@ -159,6 +164,3 @@ export default function Header() {
     </header>
   );
 }
-
-
-

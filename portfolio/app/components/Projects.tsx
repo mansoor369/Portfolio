@@ -38,7 +38,7 @@ export default function Projects() {
       {/* Section Header */}
       <div className="flex flex-col gap-2 mb-20 animate-fade-in">
         <span className="text-[13px] font-mono relative tracking-[0.2em] text-accent-gold-dark uppercase whitespace-nowrap">
-          / STUFF I BUILT / p. 002
+          / STUFF I BUILT / p. 003
         </span>
       </div>
 
@@ -284,4 +284,3 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
     </motion.div>
   );
 }
-

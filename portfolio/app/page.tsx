@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import 'lenis/dist/lenis.css'
 import Lenis from 'lenis'
@@ -30,6 +31,7 @@ export default function Home() {
       <div className="w-10/12 mx-auto">
         <Intro />
         <About />
+        <Experience />
         <Projects />
         <ContactMe />
       </div>

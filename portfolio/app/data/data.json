@@ -1,7 +1,7 @@
 {
     "site_metadata": {
         "title": "Mansoor Khan | Portofolio",
-        "description": "My name is Mansoor khan, I'm a web developer and a Data Analyst and I'm passionate about it. I'm currently working as a Data Analyst at NAVTTC Pakistan.",
+        "description": "My name is Mansoor khan, I'm a web developer and a Data Analyst and I'm passionate about it. I'm currently working as a Freelance Full Stack Engineer.",
         "og_description": "Yo Wasssup bro this my portfolio.",
         "keywords": [
             "Mansoor Khan",
@@ -28,7 +28,9 @@
     },
     "socials": {
         "github": "https://github.com/mansoor369",
-        "linkedin": "https://www.linkedin.com/in/mkyzai333/",
+        "linkedin": "https://www.linkedin.com/in/mansoor-khan212/",
+        "upwork": "https://www.upwork.com/freelancers/~01e5c4358d17fd6183?viewMode=1",
+        "instagram": "https://www.instagram.com/mansoorkhan_._/",
         "email": "mailto:mkyzai333@gmail.com"
     },
     "quote": {
@@ -36,64 +38,77 @@
     },
     "experience": [
         {
-            "company": "NAVTTC",
-            "position": "Web Developer & Data Analyst",
-            "location": "Islamabad, Pakistan",
-            "type": "On-Site",
-            "startDate": "July 2025",
+            "company": "Freelance",
+            "position": "Full Stack Engineer",
+            "location": "Remote",
+            "type": "Freelance",
+            "startDate": "July 2024",
             "endDate": "Present",
-            "description": "Working as a Web Developer & Data Analyst on the Prime Minister’s Overseas Employment Program, where I design, develop, and maintain comprehensive data analytics dashboards covering registration, enrollment, attendance, placements, trainers, feedback, and KPI tracking across multiple institutes. I build and optimize Power BI dashboards to provide real-time and actionable insights for stakeholders. My responsibilities include developing robust ETL pipelines to clean, transform, and integrate data from Excel, SQL databases, and institutional records, automating reporting workflows, defining performance metrics, and supporting data-driven decision-making for program monitoring and policy improvement.",
+            "highlights": [
+                "Developed an interactive geospatial intelligence platform with map-based dataset discovery, visualization, filtering, layer management, drive-time analysis, traffic variability, and entitlement-based premium add-ons.",
+                "Built clinician assessment, eligibility, approval, patient submission, treatment tracking, and notification workflows for The ChemistLive digital healthcare platform.",
+                "Developed YB Consultants’ university recommendation and application tracking platform with secure API integration and reusable frontend architecture.",
+                "Built Parvenetta’s nine-step apparel customization and bespoke tailoring workflows with real-time previews, uploads, custom design requests, and email notifications.",
+                "Built BrickCode’s role-based construction management platform with reusable forms, progress indicators, delay alerts, and blocked-job tracking."
+            ],
             "skills": [
                 "Next.js",
                 "React.js",
                 "JavaScript",
                 "TypeScript",
                 "Tailwind CSS",
-                "Express.js",
-                "SQL",
-                "Power BI",
-                "Excel VBA",
-                "Python",
-                "ETL Pipelines",
-                "Data Analysis",
-                "KPI Development"
+                "Mapbox",
+                "OpenLayers",
+                "REST APIs"
             ]
         },
         {
-            "company": "Freelance",
+            "company": "DevBlock Studios",
             "position": "Full Stack Developer",
-            "location": "Pakistan",
-            "type": "Remote",
+            "location": "Onsite",
+            "type": "Full-time",
+            "startDate": "January 2026",
+            "endDate": "March 2026",
+            "highlights": [
+                "Contributed to Islamic Heritage, a Hadith platform containing more than 400,000 records with advanced narrator, book, and keyword search.",
+                "Integrated a Retrieval-Augmented Generation chatbot and developed frontend components for RAG-powered search across high-volume structured data.",
+                "Designed and developed the complete responsive frontend for Little Khalifas Orphanage, including its homepage, gallery, testimonials, and donation pages."
+            ],
+            "skills": [
+                "React.js",
+                "Next.js",
+                "RAG",
+                "Responsive Design"
+            ]
+        },
+        {
+            "company": "Guideway",
+            "position": "Frontend Engineering Intern",
+            "location": "Remote",
+            "type": "Internship",
             "startDate": "July 2022",
-            "endDate": "Present",
-            "description": "Working as a freelance Full Stack Developer, delivering end-to-end web solutions for startups, businesses, and individual clients. I design and develop responsive landing pages, dashboards, admin panels, and production-ready web applications with a strong emphasis on modern UI/UX principles, performance optimization, and scalability. I actively work with technologies such as React.js, Next.js, and Tailwind CSS to build component-driven interfaces, while integrating secure APIs, implementing custom business logic, and developing data-driven features. I collaborate directly with clients to gather requirements, propose technical solutions, manage revisions, and deliver maintainable, high-quality code.",
+            "endDate": "September 2022",
+            "highlights": [
+                "Built a demo tutor-booking web platform with an intuitive interface for tutor and student interactions."
+            ],
             "skills": [
                 "HTML",
                 "CSS",
-                "JavaScript",
                 "Bootstrap",
-                "React.js",
-                "Next.js",
-                "Tailwind CSS",
-                "Python",
-                "MySQL",
-                "Pandas",
-                "REST APIs",
-                "Problem Solving",
-                "Client Communication"
+                "JavaScript"
             ]
         }
     ],
     "education": [
         {
-            "institution": "Institute of Management Sciences, Peshawar",
+            "institution": "Institute of Management Sciences",
             "degree": "Bachelors of Software Engineering",
             "years": "2021 - 2025",
             "gpa": "3.31 out of 4",
-            "description": "Aspiring to become a professional Software Engineer, I’m currently pursuing my Bachelor’s degree in Software Engineering at Institute of Management Sciences, Peshawar. My journey in tech is driven by curiosity and creativity—combining web development with cutting-edge AI research and implementation. I have built impactful digital solutions in Web Development and Data Analytics. From building full-stack applications to designing Power BI dashboards, I thrive on solving real-world problems with code and data."
+            "description": ""
         },
         {
-            "institution": "Edwardes College Peshawar",
+            "institution": "Edwardes College",
             "degree": "Higher Secondary School Certificate (HSSC)",
             "years": "2019 - 2020",
             "description": ""
